@@ -116,7 +116,7 @@ search1atime <- Sys.time()
 records1 <- searchF(search1)
 
 search1btime <- Sys.time()
-pubmed1 <- pmApiRequest(search1, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+pubmed1 <- pmApiRequest(search1, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") ## insert API key
 df1 <- pmApi2df(pubmed1, format = "bibliometrix")
 
 
@@ -126,7 +126,7 @@ search2atime <- Sys.time()
 records2 <- searchF(search2)
 
 search2btime <- Sys.time()
-pubmed2 <- pmApiRequest(search2, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+pubmed2 <- pmApiRequest(search2, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") ## insert API key
 df2 <- pmApi2df(pubmed2, format = "bibliometrix")
 
 # Top
@@ -149,7 +149,7 @@ records3 <- searchF(search3)
 
 
 search3btime <- Sys.time()
-pubmed3 <- pmApiRequest(search3, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+pubmed3 <- pmApiRequest(search3, limit=8000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") ## insert API key
 df3 <- pmApi2df(pubmed3, format = "bibliometrix")
 
 
@@ -159,7 +159,7 @@ search4atime <- Sys.time()
 records4 <- searchF(search4)
 
 search4btime <- Sys.time()
-pubmed4 <- pmApiRequest(search4, limit=5000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+pubmed4 <- pmApiRequest(search4, limit=5000, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") ## insert API key
 df4 <- pmApi2df(pubmed4, format = "bibliometrix")
 
 
@@ -169,7 +169,7 @@ search5atime <- Sys.time()
 records5 <- searchF(search5)
 
 search5btime <- Sys.time()
-pubmed5 <- pmApiRequest(search5, limit=9999, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+pubmed5 <- pmApiRequest(search5, limit=9999, api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") ## insert API key
 df5 <- pmApi2df(pubmed5, format = "bibliometrix")
 
 
