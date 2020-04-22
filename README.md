@@ -4,6 +4,7 @@ Accompanying git repository with code and raw and processed data used in the art
 
 #### Links to the article:
 
+* https://www.preprints.org/manuscript/202003.0443/v2 
 * https://www.preprints.org/manuscript/202003.0443/v1 (old version)
 
 -----
@@ -29,3 +30,7 @@ Accompanying git repository with code and raw and processed data used in the art
 #### Raw data
 
 All raw data is contined in raw_data.RData file in data folder. Additionally, we exported raw data to CSV files and compressed them in a .zip file. Note that some of the data is lost during the export to CSV and that RData is more complete.
+
+#### .R file 
+
+User has to provide API key to run `pmApiRequest()` function in R script. API key can be obtained on PubMed.
